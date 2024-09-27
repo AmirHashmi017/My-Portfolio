@@ -583,7 +583,7 @@ h2 {
     line-height: 1.2em;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 800px) {
     .home {
         width: 95vw;
         /* height: 100vh; */
