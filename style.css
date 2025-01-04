@@ -220,7 +220,14 @@ p {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     color: var(--tj-body);
+    animation: blink 0.7s step-end infinite;
 }
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
 
 .About {
     width: 95vw;
@@ -522,7 +529,7 @@ h2 {
 .Projects {
     margin-top: 20vh;
     width: 95vw;
-    height: 300vh;
+    height: 400vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,16 +590,34 @@ h2 {
 .thirdproject {
     line-height: 1.2em;
 }
-
+#typewriter {
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: blink 0.7s step-end infinite;
+  }
+#HandWaving
+{
+    position: absolute;
+    top:14px;
+    left:-68px;
+}
 @media screen and (max-width: 800px) {
     .home {
         width: 95vw;
-        height: 130vh;
+        height: 96vh;
     }
 
     nav {
         display: none;
     }
+    #HandWaving
+{
+    position: absolute;
+    top:-16px;
+    left:-48px;
+}
 
     .profile {
         position: relative;
@@ -689,7 +714,7 @@ h2 {
 
     .About {
         width: 95vw;
-        height: 220vh;
+        height: 190vh;
     }
     .aboutdata {
         
@@ -905,9 +930,9 @@ h2 {
     }
 
     .Projects {
-        margin-top: 20vh;
+        margin-top: 10vh;
         width: 95vw;
-        height: 490vh;
+        height: 635vh;
         display: flex;
         flex-direction: column;
         align-items: center;
