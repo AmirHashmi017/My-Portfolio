@@ -220,6 +220,7 @@ p {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     color: var(--tj-body);
+    min-height: calc(2 * var(--bs-body-line-height)) !important;
     animation: blink 0.7s step-end infinite;
 }
 
@@ -615,6 +616,7 @@ h2 {
         -webkit-tap-highlight-color: transparent;
         color: var(--tj-body);
         animation: blink 0.7s step-end infinite;
+        height: 5vh;
     }
     .home {
         width: 99vw !important;
@@ -719,6 +721,7 @@ h2 {
         font-weight: 300;
         line-height: var(--bs-body-line-height);
         background-color: var(--bs-body-bg);
+        min-height: calc(2 * var(--bs-body-line-height)) !important; 
         -webkit-text-size-adjust: 100%;
         -webkit-tap-highlight-color: transparent;
         color: var(--tj-body);
