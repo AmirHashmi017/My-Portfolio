@@ -213,6 +213,7 @@ p {
 .profiletext {
     font-family: var(--tj-ff-body);
     font-size: 25px !important;
+    height: 5vh;
     font-weight: 300;
     line-height: var(--bs-body-line-height);
     text-align: var(--bs-body-text-align);
