@@ -212,7 +212,7 @@ p {
 
 .profiletext {
     font-family: var(--tj-ff-body);
-    font-size: 20px;
+    font-size: 25px !important;
     font-weight: 300;
     line-height: var(--bs-body-line-height);
     text-align: var(--bs-body-text-align);
@@ -604,8 +604,9 @@ h2 {
     left:-68px;
 }
 @media screen and (max-width: 800px) {
+    
     .home {
-        width: 95vw;
+        width: 98vw;
         height: 96vh;
     }
 
