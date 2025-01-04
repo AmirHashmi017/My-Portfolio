@@ -606,8 +606,8 @@ h2 {
 @media screen and (max-width: 800px) {
     .profiletext {
         font-family: var(--tj-ff-body);
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 20px !important;
+        font-weight: 600 !important;
         line-height: var(--bs-body-line-height);
         text-align: var(--bs-body-text-align);
         background-color: var(--bs-body-bg);
@@ -617,7 +617,7 @@ h2 {
         animation: blink 0.7s step-end infinite;
     }
     .home {
-        width: 99vw;
+        width: 99vw !important;
         height: 96vh;
     }
 
